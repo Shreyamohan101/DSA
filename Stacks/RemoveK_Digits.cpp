@@ -28,7 +28,7 @@ class Solution {
     
             reverse(result.begin(), result.end());
     
-            int i = 0;
+            int i = 0;//removes leading zeroes
             while (i < result.size() && result[i] == '0') {
                 i++;
             }
